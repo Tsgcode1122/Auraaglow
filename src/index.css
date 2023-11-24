@@ -43,17 +43,18 @@
   border-radius: 20px;
   list-style: none;
   display: flex;
-  padding-left: 0.5rem;
+  justify-content: center;
+  padding-left: 0rem;
   padding-bottom: 0.3rem;
   padding-top: 0.3rem;
-  gap: 35px;
+  gap: 20px;
 }
 .Nav-small ul li a {
   text-decoration: none;
 
   color: black;
   font-family: "Archivo", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: bolder;
   line-height: 100%;
@@ -512,7 +513,7 @@
 /*  *****************************************_-------------------------------------------*/
 @media screen and (max-width: 320px) {
   .nav-logo a svg {
-    height: 57.579px;
+    height: 57.578px;
     flex-shrink: 0;
   }
   .nav-center {
@@ -530,7 +531,8 @@
   .Nav-small ul {
     margin-top: -0.5rem;
     border-radius: 20px;
-    gap: 14px;
+    justify-content: center;
+    gap: 12px;
   }
   .Nav-small ul li a {
     font-size: 12px;
@@ -843,7 +845,7 @@
   }
   .Nav-small ul {
     margin-top: -0.5rem;
-    padding-left: 2rem;
+    justify-content: center;
     border-radius: 20px;
     gap: 14px;
   }
@@ -1160,12 +1162,12 @@
   }
   .Nav-small ul {
     margin-top: -0.5rem;
-
+    justify-content: center;
     border-radius: 20px;
-    gap: 14px;
+    gap: 10px;
   }
   .Nav-small ul li a {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   /* big */
@@ -1486,8 +1488,8 @@
   }
   .Nav-small ul {
     margin-top: -0.5rem;
-
-    padding-left: 2rem;
+    justify-content: center;
+    padding-left: 0rem;
     padding-bottom: 1rem;
     padding-top: 0.3rem;
     gap: 22px;
@@ -1945,11 +1947,12 @@
   .Nav-small ul {
     margin-top: -0.5rem;
 
-    padding-left: 2rem;
+    justify-content: center;
+    padding-left: 0rem;
     padding-right: 2rem;
     padding-bottom: 0.3;
     padding-top: 0.7rem;
-    gap: 38px;
+    gap: 40px;
   }
   .Nav-small ul li a {
     font-size: 18px;
@@ -2339,7 +2342,8 @@
   .Nav-small ul {
     margin-top: -0.5rem;
 
-    padding-left: 6rem;
+    justify-content: center;
+    padding-left: 0rem;
     padding-right: 2rem;
     padding-bottom: 0.3;
     padding-top: 0.7rem;
