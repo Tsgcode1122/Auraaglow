@@ -180,11 +180,7 @@ const Navbar = () => {
                 Our Products
               </a>
             </li>
-            <li>
-              <a href="#" onClick={scrollToWhyUs}>
-                Why us?
-              </a>
-            </li>
+
             <li>
               <a href="#" onClick={scrollToContact}>
                 Testimonial
