@@ -513,7 +513,7 @@
 /*  *****************************************_-------------------------------------------*/
 @media screen and (max-width: 320px) {
   .nav-logo a svg {
-    height: 57.578px;
+    height: 57.579px;
     flex-shrink: 0;
   }
   .nav-center {
