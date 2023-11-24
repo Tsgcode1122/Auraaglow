@@ -2,6 +2,13 @@
 import "../Media.css";
 
 import React, { useState } from "react";
+const scrollToHome = (event) => {
+  event.preventDefault();
+  const homeSection = document.getElementById("home");
+  if (homeSection) {
+    homeSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
 const scrollToAbout = () => {
   event.preventDefault();
   const aboutSection = document.getElementById("about");
@@ -16,13 +23,7 @@ const scrollToContact = () => {
     aboutSection.scrollIntoView({ behavior: "smooth" });
   }
 };
-const scrollToHome = () => {
-  event.preventDefault();
-  const aboutSection = document.getElementById("home");
-  if (aboutSection) {
-    aboutSection.scrollIntoView({ behavior: "smooth" });
-  }
-};
+
 const scrollToProduct = () => {
   event.preventDefault();
   const aboutSection = document.getElementById("product");
@@ -165,16 +166,15 @@ const Navbar = () => {
         <div className="Nav-small">
           <ul>
             <li>
-              <a href="#" onClick={scrollToHome}>
-                Home
-              </a>
-            </li>
-            <li>
               <a href="#" onClick={scrollToAbout}>
                 About Us
               </a>
             </li>
-
+            <li>
+              <a href="#" onClick={scrollToHome}>
+                Home
+              </a>
+            </li>
             <li>
               <a href="#" onClick={scrollToProduct}>
                 Our Products
