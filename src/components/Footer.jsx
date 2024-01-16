@@ -189,9 +189,9 @@ const Footer = () => {
         </div>
         <div className="footer-3">
           <h3>Contact</h3>
-          <p>+2348134098042</p>
+          <p>+2349078803521</p>
           <p>
-            15 Ayoola Israel-Tsg Street, Beside Learning Academy Lagos Nigeria.
+            15 Adegbite Street, Beside Learning Academy, Badagry Lagos Nigeria.
           </p>
         </div>
         <div className="footer-4">
@@ -225,7 +225,7 @@ const Footer = () => {
             </form>
           )}
           <h4>UI/UX by Israel Ayooluwa </h4>
-          <h4>Frontend Design by Solomon Tsg</h4>
+          <h4>Frontend Design by Falola Tosin</h4>
         </div>
       </div>
     </>
